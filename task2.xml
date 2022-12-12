@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="19.0.1" class="java.beans.XMLDecoder">
+ <object class="java.util.LinkedHashMap">
+  <void method="put">
+   <string>Traffic Collision</string>
+   <long>185756160</long>
+  </void>
+  <void method="put">
+   <string>Speeding</string>
+   <long>48372480</long>
+  </void>
+  <void method="put">
+   <string>Exit into the opposite lane</string>
+   <long>46704000</long>
+  </void>
+  <void method="put">
+   <string>Parking Ticket</string>
+   <long>19820160</long>
+  </void>
+ </object>
+</java>
