@@ -11,7 +11,7 @@ class ServiceClassTest {
 
     @Test
     void loadFromProperties() throws Exception {
-        String path = "/Users/mishaabaiev/Java/JavaProjects/Example/src/main/java/org/example/file-properties.txt";
+        String path = "/Users/mishaabaiev/Java/JavaProjects/HomeworkWeek5_6/src/main/java/com/gmail/aba/task2/file.properties";
         PropertiesModel propertiesModel = ServiceClass.loadFromProperties(PropertiesModel.class, path);
 
         assertEquals(10, propertiesModel.getNumberProperty());
